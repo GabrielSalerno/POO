@@ -11,5 +11,7 @@ public class ex03 {
         int minutos = segundos / 60;
         segundos %= 60;
         System.out.printf("%d:%d:%d\n",hora,minutos,segundos);
+
+        teclado.close();
     }
 }

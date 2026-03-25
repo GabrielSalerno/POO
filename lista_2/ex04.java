@@ -13,5 +13,7 @@ public class ex04 {
         int kmL = d/l;
 
         System.out.printf("%dkm/h\n%dkm/l\n",kmH,kmL);
+
+        teclado.close();
     }
 }

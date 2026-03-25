@@ -11,5 +11,7 @@ public class ex02 {
         System.out.printf("Subtração: %f\n", num1 - num2);
         System.out.printf("Multipicação: %f\n", num1 * num2);
         System.out.printf("Divisão: %f\n", num1 / num2);
+
+        teclado.close();
     }
 }
