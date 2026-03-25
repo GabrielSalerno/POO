@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class ex02 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        float num1 = teclado.nextFloat();
-        float num2 = teclado.nextFloat();
-        System.out.printf("Soma: %f\n", num1 + num2);
-        System.out.printf("Subtração: %f\n", num1 - num2);
-        System.out.printf("Multipicação: %f\n", num1 * num2);
-        System.out.printf("Divisão: %f\n", num1 / num2);
+        int num1 = teclado.nextInt();
+        int num2 = teclado.nextInt();
+        System.out.printf("Soma: %.2f\n", (float)(num1 + num2));
+        System.out.printf("Subtração: %.2f\n", (float)(num1 - num2));
+        System.out.printf("Multipicação: %.2f\n", (float)(num1 * num2));
+        System.out.printf("Divisão: %.2f\n", (float)num1 / (float)num2);
 
         teclado.close();
     }
