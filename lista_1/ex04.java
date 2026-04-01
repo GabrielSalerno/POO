@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex04ls01 {
+public class ex04 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int moeda = teclado.nextInt();
