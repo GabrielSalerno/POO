@@ -27,7 +27,7 @@ class Pedido{
     Pagamento formaPagamento;
 }
 
-public class supermercado{
+public class Supermercado{
     public static void main(String[] args){
         Produto arroz = new Produto();
         arroz.nome = "Arroz";

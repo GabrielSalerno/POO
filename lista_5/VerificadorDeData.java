@@ -51,7 +51,7 @@ class Data{
     }
 }
 
-public class ex05 {
+public class VerificadorDeData {
     static public void main(String[] args){
         Scanner teclado = new Scanner(System.in);
         System.out.print("Dia: ");

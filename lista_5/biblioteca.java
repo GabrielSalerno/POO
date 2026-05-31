@@ -15,7 +15,7 @@ class Pessoa{
     Emprestimo[] emprestimos;
 }
 
-public class biblioteca {
+public class Biblioteca {
     static public void main(String[] args){
         Scanner teclado = new Scanner(System.in);
         Livro[] livrosDisponiveis = new Livro[3];

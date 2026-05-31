@@ -9,7 +9,7 @@ class Agenda{
     Contato[] listaContatos;
 }
 
-public class agendaTelefonica {
+public class AgendaTelefonica {
     public static void main(String[] args){
         Scanner teclado = new Scanner(System.in);
 

@@ -19,7 +19,7 @@ class ContaCorrente{
     }
 }
 
-public class banco{
+public class Banco{
     static public void main(String[] args){
         Scanner teclado = new Scanner(System.in);
         ContaCorrente conta1 = new ContaCorrente();

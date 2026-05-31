@@ -2,7 +2,7 @@ package lista_6;
 
 import java.util.Scanner;
 
-class Calculadora{
+class OperacoesCalculadora{
     private float memoria = 0;
 
     public void imprimir(){
@@ -38,10 +38,10 @@ class Calculadora{
     }
 }
 
-public class ex01{
+public class Calculadora{
     public static void main(String[] args){
         Scanner teclado = new Scanner(System.in);
-        Calculadora calculadora1 = new Calculadora();
+        OperacoesCalculadora calculadora1 = new OperacoesCalculadora();
         float x;
 
         calculadora1.imprimir();
