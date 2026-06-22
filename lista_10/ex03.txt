@@ -1,0 +1,1 @@
+Sleep pausa a thread por um determinado tempo que o programado escolhe, o join espera a outra thread acabar para poder continuar executando.

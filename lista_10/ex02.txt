@@ -1,0 +1,6 @@
+O modificador synchronized é usado para delimitar regiões críticas e garantir que a execução de um metodo não aconteça 
+ao mesmo tempo em mais de uma thread.
+Ele deve ser usado para situações onde o eu mexo em dados compartilhados por duas threads diferentes.
+O excesso de synchronized pode gerar lentidão por que toda thread vai esperar a outra para roda oque acaba sendo o inverso
+do que se deseja quando se usa threads, pode ocorrer de duas threads ficarem esperando o resultado da 
+outra e uma thread de baixa prioridade pode nunca cosneguir ser executada.
