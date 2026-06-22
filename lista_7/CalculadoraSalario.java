@@ -1,10 +1,10 @@
-package lista_7_ex3;
+package lista_7;
 
-abstract class Funcionario{
+abstract class Funcionario1{
     protected String nome;
     protected float salarioBruto;
 
-    protected Funcionario(String nome, float salarioBruto){
+    protected Funcionario1(String nome, float salarioBruto){
         this.nome = nome;
         this.salarioBruto = salarioBruto;
     }
@@ -12,7 +12,7 @@ abstract class Funcionario{
     public abstract float salarioLiquido();
 }
 
-class Vendedores extends Funcionario{
+class Vendedores extends Funcionario1{
     private float salarioLiquido;
     private float bonus;
 
@@ -35,7 +35,7 @@ class Vendedores extends Funcionario{
     }
 }
 
-class Estagiarios extends Funcionario{
+class Estagiarios extends Funcionario1{
     public Estagiarios(String nome, float salarioBruto){
         super(nome,salarioBruto);
     }
